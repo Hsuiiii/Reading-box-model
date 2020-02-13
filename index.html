@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Reading</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+       
+        <body>
+              <h1>The Box Model</h1>
+        <p>In CSS we broadly have two types of boxes — block boxes and inline boxes.</p>
+       
+        <div class ="container"> 
+        <div class="box">
+        <strong> Block Boxes </strong>
+        <ul>
+        <li>The box will extend in the inline direction to fill the space available in its container. In most cases this means that the box will become as wide as its container, filling up 100% of the space available.
+        <li>The box will break onto a new line.
+        <li>The width and height properties are respected.
+        <li>Padding, margin and border will cause other elements to be pushed away from the box
+        </ul>
+        </div>
+   
+        
+        <div class ="diviepath"> </div>
+    
+        <div class ="box">
+        <strong> Inline Boxes </strong>
+        <ul>
+        <li>The box will not break onto a new line.
+        <li>The width and height properties will not apply.
+        <li>Padding, margin and borders will apply but will not cause other inline boxes to move away from the box.
+        </ul>
+        </div>
+        </div>
+
+        <p>In CSS we broadly have two types of boxes — block boxes and inline boxes.</p>
+       
+        <div class ="container"> 
+        <div class="box">
+        <strong> Parts of a box </strong>
+        <img src ="box-model.png">
+        <ul>
+            <li> Content box: The area where your content is displayed, which can be sized using properties like width and height.
+            <li> Padding box: The padding sits around the content as white space; its size can be controlled using padding and related properties.
+            <li> Border box: The border box wraps the content and any padding. Its size and style can be controlled using border and related properties.
+            <li> Margin box: The margin is the outermost layer, wrapping the content, padding and border as whitespace between this box and other elements. Its size can be controlled using margin and related properties.
+            </ul>
+        </div>
+        <div class ="diviepath"> </div>
+        <div class="box">
+            <img class ="cat"src ="giphy.gif"> </img>
+            <p class = "author">Created Henry Sui <br/>
+                Original webpage is on <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">Mozilla </a>
+            </p>
+            </div>
+        </div>
+
+            
+         
+
+</body>
+</html>
